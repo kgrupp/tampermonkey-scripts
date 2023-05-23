@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide YouTube Shorts
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  More efficient without YouTube shorts.
 // @author       Konstantin Grupp
 // @match        https://www.youtube.com/
@@ -13,4 +13,7 @@
     'use strict';
 
     GM_addStyle("ytd-rich-shelf-renderer[is-shorts] { display: none !important; }");
+    GM_addStyle("ytd-reel-shelf-renderer { display: none !important; }");
+    GM_addStyle(".ytd-reel-shelf-renderer { display: none !important; }");
+    GM_addStyle(".ytd-reel-video-renderer { display: none !important; }");
 })();

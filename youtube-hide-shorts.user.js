@@ -7,6 +7,7 @@
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        GM_addStyle
+// @downloadURL  https://github.com/kgrupp/tampermonkey-scripts/raw/master/youtube-hide-shorts.user.js
 // ==/UserScript==
 
 (function() {
